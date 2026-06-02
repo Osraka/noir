@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.0.0-beta.23](https://github.com/noir-lang/noir/compare/v1.0.0-beta.22...v1.0.0-beta.23) (2026-06-02)
+
+
+### Features
+
+* **ssa:** Validate stated purity against computed purity in parser ([#12812](https://github.com/noir-lang/noir/issues/12812)) ([e26f412](https://github.com/noir-lang/noir/commit/e26f412ff007e037be4aab50f8a57943ed822b2c))
+
+
+### Bug Fixes
+
+* Agree on zero-limb field decomposition across all contexts ([#12849](https://github.com/noir-lang/noir/issues/12849)) ([9da3371](https://github.com/noir-lang/noir/commit/9da33717608020cc52e4ffff23041d96dfdfeddd))
+* **ast_fuzzer:** Stop misreporting IndexOutOfBounds and Dynamic string assert errors ([#12878](https://github.com/noir-lang/noir/issues/12878)) ([351ae05](https://github.com/noir-lang/noir/commit/351ae05046eddb1a900e1ed1164db081a9a5956d))
+* Check that msm and embedded_curve_add points are all or nothing ([#12658](https://github.com/noir-lang/noir/issues/12658)) ([83cc0ec](https://github.com/noir-lang/noir/commit/83cc0ec1fd0c2ab21f001ff29eba5e2be26b146f))
+* Comptime as_witness returns unit, not its argument ([#12865](https://github.com/noir-lang/noir/issues/12865)) ([81b4693](https://github.com/noir-lang/noir/commit/81b4693fddf20b1e5f4bd438ad24b447f1d744da))
+* Don't leak private type/value through colliding import ([#12848](https://github.com/noir-lang/noir/issues/12848)) ([fd5a8bc](https://github.com/noir-lang/noir/commit/fd5a8bca47d8afce9b43747a65be57dfb0632151))
+* Enforce caller visibility for trait methods in `as_typed_expr` ([#12851](https://github.com/noir-lang/noir/issues/12851)) ([1c0757b](https://github.com/noir-lang/noir/commit/1c0757bb9d51d0534fcef3c53e6bf0e86485be05))
+* Fix more overlapping impls ([#12850](https://github.com/noir-lang/noir/issues/12850)) ([0eb306d](https://github.com/noir-lang/noir/commit/0eb306d4b2060f25ea8f6c19d846b908757e6c07))
+* **frontend:** Key foreign proxy cache on monomorphized type ([#12863](https://github.com/noir-lang/noir/issues/12863)) ([1b396ed](https://github.com/noir-lang/noir/commit/1b396ed3509846525a8eed06161db82fa565ef25))
+* **ssa_gen:** Always record error type, even for strings ([#12858](https://github.com/noir-lang/noir/issues/12858)) ([a927d68](https://github.com/noir-lang/noir/commit/a927d6814e0e114501a6da63cfd6340b7eef90a3))
+
 ## [1.0.0-beta.22](https://github.com/noir-lang/noir/compare/v1.0.0-beta.21...v1.0.0-beta.22) (2026-05-29)
 
 
